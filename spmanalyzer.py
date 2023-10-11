@@ -538,7 +538,7 @@ if __name__ == "__main__":
         sys.exit(main())
 
     root = tk.Tk()
-    root.title("Image Tester")
+    root.title("SPM Analyzer by Hierosoft")
     app = MainApplication(root)
     app.pack(side="top", fill="both", expand=True)
     # app.grid(
