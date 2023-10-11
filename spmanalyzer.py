@@ -141,7 +141,7 @@ class MainApplication(ttk.Frame):
 
         self.sourceLabel = ttk.Label(
             container,
-            text="Source",
+            text="CSV (exported from SPM)",
         )
         self.sourceLabel.grid(row=container.row, column=0)
         self.sourceVar = tk.StringVar(container)
